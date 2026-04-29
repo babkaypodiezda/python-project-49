@@ -3,3 +3,4 @@
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=babkaypodiezda_python-project-49&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=babkaypodiezda_python-project-49)
 
 brain-even - https://asciinema.org/a/3OAbzhxffXgRR1Un
+brain-calc - https://asciinema.org/a/sNVHH0HgxGqWr1Ah
