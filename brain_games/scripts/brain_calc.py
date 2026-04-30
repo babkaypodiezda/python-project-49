@@ -1,6 +1,6 @@
 import brain_games.cli as cli
 import brain_games.games.calc as game
-import brain_games.engine as play
+import brain_games.engine as engine
 
 
 def main():
@@ -8,4 +8,4 @@ def main():
     user_name = cli.welcome_user()
     print('What is the result of the expression?')
 
-    play.play(game.calculate, user_name)
+    engine.play(game.calculate, user_name)

@@ -14,8 +14,7 @@ def row_numbers():
  
 def progression():
   answer, row = row_numbers()
-  print(f'Question: {row}')
-  user_answer = input('Your answer: ')
+  question = row
   correct_answer = str(answer)
-  is_correct = user_answer == correct_answer
-  return is_correct, user_answer, correct_answer
+
+  return question, correct_answer
