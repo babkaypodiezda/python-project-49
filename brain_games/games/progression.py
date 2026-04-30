@@ -3,7 +3,7 @@ import random
 
 def row_numbers():
    length = random.randint(5, 10)
-   start, step = random.randint(0, 30), random.randint(0, 30)
+   start, step = random.randint(1, 30), random.randint(1, 30)
    row = [start + step * index for index in range(length)]
 
    random_index = random.randint(0, length - 1)
